@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "name": "tailwindcss-crash",
+  "version": "1.0.0",
+  "description": "https://www.youtube.com/watch?v=UBOj6rqRUME",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build:css": "tailwind build src/style.css -o dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayesp/tailwindcss-crash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jayesp/tailwindcss-crash/issues"
+  },
+  "homepage": "https://github.com/jayesp/tailwindcss-crash#readme"
+}
