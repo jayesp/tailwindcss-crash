@@ -14,7 +14,7 @@
       <h1 class="text-xl">Welcome to Tailwind CSS Crash Course</h1>
     </header>
     <main class="p-4">
-      <section>
+      <section class="container mx-auto">
         <!-- ALERT COMPONENT -->
         <div
           class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4"
@@ -24,7 +24,9 @@
           <span class="block sm:inline">Please update your password</span>
         </div>
         <h2 class="text-xl mb-2">Introduction</h2>
-        <p>This is a simple template to get started with Tailwind CSS.</p>
+        <p class="mb-4">
+          This is a simple template to get started with Tailwind CSS.
+        </p>
 
         <!-- CARD COMPONENT -->
         <div class="max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl">
@@ -42,7 +44,7 @@
         </div>
 
         <!-- CARD COLUMN COMPONENT -->
-        <div class="container mt-5">
+        <div class="mt-5 flex justify-center">
           <div class="md:flex">
             <div
               class="flex-1 text-gray-700 text-center bg-gray-400 px-5 py-5 m-2 rounded"
@@ -61,6 +63,11 @@
                   >
                     Networking
                   </div>
+                  <a
+                    href="#"
+                    class="block mt-1 text-lg leading-tight font-semibod text-gray-900 hover:underlie"
+                    >Finding connection to help your business grow</a
+                  >
                 </div>
               </div>
             </div>
@@ -81,6 +88,11 @@
                   >
                     Networking
                   </div>
+                  <a
+                    href="#"
+                    class="block mt-1 text-lg leading-tight font-semibod text-gray-900 hover:underlie"
+                    >Finding connection to help your business grow</a
+                  >
                 </div>
               </div>
             </div>
